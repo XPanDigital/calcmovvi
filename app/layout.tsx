@@ -1,0 +1,1 @@
+import type { Metadata } from 'next'; export const metadata: Metadata={title:'Precifica · TikTok Shop',description:'Calculadora de preços e catálogo de produtos',icons:{icon:'/favicon.svg'}}; export default function Layout({children}:Readonly<{children:React.ReactNode}>){return <html lang='pt-BR'><body>{children}</body></html>}
